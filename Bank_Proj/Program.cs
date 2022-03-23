@@ -22,13 +22,13 @@ namespace Bank_Proj
                         InserirConta();
                         break;
                     case "3":
-                        //Transferir();
+                        Transferir();
                         break;
                     case "4":
-                        //Sacar();
+                        Sacar();
                         break;
                     case "5":
-                        //Depositar();
+                        Depositar();
                         break;
                     case "C":
                         Console.Clear();
@@ -40,6 +40,42 @@ namespace Bank_Proj
                 opcaoUsuario = ObterOpcaoUsuario();
             }
             Console.WriteLine("Obrigado por utilizar nossos serviços.");
+        }
+
+        private static void Transferir()
+        {
+            Console.Write("Digite o número da conta de origem: ");
+            int iContaOrigem = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o número da conta de destino: ");
+            int iContaDestino = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o valor de transferência: ");
+            double valorTransferencia = double.Parse(Console.ReadLine());
+
+            listaContas[iContaOrigem].Transferir(valorTransferencia, listaContas[iContaDestino]);
+        }
+
+        private static void Depositar()
+        {
+            Console.WriteLine("Digite o número da conta: ");
+            int indiceConta = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor a ser depositado: ");
+            double valorSaque = double.Parse(Console.ReadLine());
+
+            listaContas[indiceConta].Depositar(valorSaque);
+        }
+
+        private static void Sacar()
+        {
+            Console.WriteLine("Digite o número da conta: ");
+            int indiceConta = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor a ser sacado: ");
+            double valorSaque = double.Parse(Console.ReadLine());
+
+            listaContas[indiceConta].Sacar(valorSaque);
         }
 
         private static void ListarContas()
@@ -108,13 +144,16 @@ namespace Bank_Proj
             Console.WriteLine("1- Listar contas");
             Console.WriteLine("2- Inserir nova conta");
             Console.WriteLine("3- Transferir");
-            Console.WriteLine("5- Sacar");
+            Console.WriteLine("4- Sacar");
+            Console.WriteLine("5- Depositar");
             Console.WriteLine("C- Limpar tela");
             Console.WriteLine("X - Sair");
+            Console.WriteLine();
 
             string opcaoUsuario = Console.ReadLine().ToUpper();
             Console.WriteLine();
             return opcaoUsuario;
+            
         }
     }
 }

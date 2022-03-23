@@ -26,7 +26,7 @@ namespace Bank_Proj
                 return false;
             }
                 Saldo -= valorSaque;
-                Console.WriteLine($"Saldo atual da conta de {Nome} é {Saldo}");
+                Console.WriteLine($"Saldo atual da conta de {Nome} é R$ {Saldo}");
            
             return true;
         }
