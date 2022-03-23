@@ -1,0 +1,16 @@
+D:\Dio\App_Transf_Bancaria\Bank_Proj\bin\Debug\net5.0\Bank_Proj.exe
+D:\Dio\App_Transf_Bancaria\Bank_Proj\bin\Debug\net5.0\Bank_Proj.deps.json
+D:\Dio\App_Transf_Bancaria\Bank_Proj\bin\Debug\net5.0\Bank_Proj.runtimeconfig.json
+D:\Dio\App_Transf_Bancaria\Bank_Proj\bin\Debug\net5.0\Bank_Proj.runtimeconfig.dev.json
+D:\Dio\App_Transf_Bancaria\Bank_Proj\bin\Debug\net5.0\Bank_Proj.dll
+D:\Dio\App_Transf_Bancaria\Bank_Proj\bin\Debug\net5.0\ref\Bank_Proj.dll
+D:\Dio\App_Transf_Bancaria\Bank_Proj\bin\Debug\net5.0\Bank_Proj.pdb
+D:\Dio\App_Transf_Bancaria\Bank_Proj\obj\Debug\net5.0\Bank_Proj.csproj.AssemblyReference.cache
+D:\Dio\App_Transf_Bancaria\Bank_Proj\obj\Debug\net5.0\Bank_Proj.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dio\App_Transf_Bancaria\Bank_Proj\obj\Debug\net5.0\Bank_Proj.AssemblyInfoInputs.cache
+D:\Dio\App_Transf_Bancaria\Bank_Proj\obj\Debug\net5.0\Bank_Proj.AssemblyInfo.cs
+D:\Dio\App_Transf_Bancaria\Bank_Proj\obj\Debug\net5.0\Bank_Proj.csproj.CoreCompileInputs.cache
+D:\Dio\App_Transf_Bancaria\Bank_Proj\obj\Debug\net5.0\Bank_Proj.dll
+D:\Dio\App_Transf_Bancaria\Bank_Proj\obj\Debug\net5.0\ref\Bank_Proj.dll
+D:\Dio\App_Transf_Bancaria\Bank_Proj\obj\Debug\net5.0\Bank_Proj.pdb
+D:\Dio\App_Transf_Bancaria\Bank_Proj\obj\Debug\net5.0\Bank_Proj.genruntimeconfig.cache
